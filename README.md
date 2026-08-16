@@ -1,6 +1,6 @@
 # Pinecone TG Bot
 
-Telegram-бот-помощник, который отвечает **только на основе данных** из векторной базы [Pinecone](https://www.pinecone.io/) (индекс `nemo`). Перед каждым ответом бот ищет топ-5 релевантных записей через `search_vectors()` и передаёт их в контекст LLM.
+Telegram-бот-помощник, который отвечает **только на основе данных** из векторной базы [Pinecone](https://www.pinecone.io/). Перед каждым ответом бот ищет топ-5 релевантных записей через `search_vectors()` и передаёт их в контекст LLM.
 
 **Репозиторий:** [github.com/usenkovalexander-blip/Pinecone-TG-Bot](https://github.com/usenkovalexander-blip/Pinecone-TG-Bot)
 
